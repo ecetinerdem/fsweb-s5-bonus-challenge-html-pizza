@@ -120,7 +120,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 400px;
   width: 600px;
   border-radius: 20px;
   display: flex;
@@ -146,13 +146,13 @@
 .menu-item4 {
   margin: 30px auto;
   background-image: url("public\assets\iteration-2\cta\kart-3.png");
-  background-size: 10%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-color: #ce2829;
   border-radius: 20px;
-  height: 600px;
-  max-width: 600px;
+  height: 230px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -162,7 +162,6 @@
 
 .menu-header4 {
   margin: 0;
-  margin-bottom: 30px;
   display: flex;
   justify-content: left;
   text-align: left;
@@ -170,12 +169,16 @@
   font-size: 4em;
   text-align: left;
   font-family: Quatrocento;
-  line-height: 1.1;
+  line-height: 1rem;
 
 }
 
 .menu-header4 .red-text {
   color: #ce2829;
+}
+
+.menu-header4a {
+  font-size: 4em;
 }
 
 .btn3 {
@@ -193,4 +196,39 @@
   background: #FAF7F2;
   color: #ce2829;
   width: 150px;
+}
+
+.menu-item5 {
+  margin: 30px auto;
+  background-color: #FAF7F2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #ce2829;
+  border-radius: 20px;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 80px;
+}
+
+.menu-header5 {
+  font-family: satisfy;
+  font-size: 3rem;
+  color:#ce2829;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu-header5a {
+  display: flex;
+  color: #292929;
+  font-size: 4em;
+  justify-content: center;
+  text-align: center;
+  font-family: Barlow;
+  line-height: 1rem;
 }
