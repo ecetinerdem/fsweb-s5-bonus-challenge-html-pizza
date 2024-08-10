@@ -1,97 +1,196 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
+.menu-item {
   margin: 0 auto;
-  padding: 2rem;
+  background-image: url("public\assets\iteration-1\home-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1080.53px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  color: #FAF7F2;
+  display: flex;
+  font-size: 3.2em;
+  font-family: system-ui;
+  line-height: 1.1;
+
+}
+
+.menu-par {
+  margin: 20px;
+  display: flex;
+  font-size: 5.5rem;
+  font-family: Roboto Condensed;
   text-align: center;
+  color: #FAF7F2;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+.btn1 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  font-weight: 700;
+  font-family: Barlow;
+  background: #fdc913;
+  width: 150px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.container img {
+  width: 45px;  
+  height: 45px; 
+  margin: 1rem;  
+}
+
+.menu-item2 {
+  margin: 0 auto;
+  background-image: url("public\assets\iteration-2\cta\kart-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  max-width: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 80px;
+}
+
+.menu-header2 {
+  margin: 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: #FAF7F2;
+  font-size: 7em;
+  font-family: Quatrocento;
+  line-height: 1.1;
+
+}
+
+.menu-par2 {
+  color: #FAF7F2 ;
+  font-size: 2.1em;
+}
+
+.btn2 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  padding: 1em 1.6em;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: Barlow;
+  background: #FAF7F2;
+  color: #ce2829;
+  width: 150px;
+}
+
+.menu-item3 {
+  margin: 30px auto;
+  background-image: url("public\assets\iteration-2\cta\kart-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 80px;
+}
+
+.menu-header3 {
+  margin: 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: #FAF7F2;
+  font-size: 5em;
+  font-family: Quatrocento;
+  line-height: 1.1;
+
+}
+
+.menu-item4 {
+  margin: 30px auto;
+  background-image: url("public\assets\iteration-2\cta\kart-3.png");
+  background-size: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-color: #ce2829;
+  border-radius: 20px;
+  height: 600px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 80px;
+}
+
+.menu-header4 {
+  margin: 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: #292929;
+  font-size: 4em;
+  text-align: left;
+  font-family: Quatrocento;
+  line-height: 1.1;
+
+}
+
+.menu-header4 .red-text {
+  color: #ce2829;
+}
+
+.btn3 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  padding: 1em 1.6em;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: Barlow;
+  background: #FAF7F2;
+  color: #ce2829;
+  width: 150px;
 }
