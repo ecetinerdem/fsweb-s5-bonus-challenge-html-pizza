@@ -284,6 +284,13 @@ body {
   width: 20%;
 }
 
+.container-text {
+  background: white;
+  border-radius: 20px;
+  margin: -20px;
+  font-family: Roboto;
+}
+
 .container-pizza img {
   background: white;
   border: solid white;
@@ -298,18 +305,22 @@ body {
   font-size: 2rem;
 }
 
-.container-pizza p {
+.left {
   padding-left: 60px;
-  text-align: left;
-  width: 655px;
+  margin-right: auto ;
 }
 
-.container-text {
-  background: white;
-  border-radius: 20px;
-  margin: -20px;
-  font-family: Roboto;
+.right {
+  text-align: right;
+  padding-right: 80px;
+  padding-left: 80px;
 }
+
+.price {
+  font-weight: bold;
+}
+
+
 
 .container-text .bold {
   font-weight: 500;
