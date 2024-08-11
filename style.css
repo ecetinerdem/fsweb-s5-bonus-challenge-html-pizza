@@ -1,3 +1,7 @@
+body {
+  background: #FAF7F2;
+}
+
 .menu-item {
   margin: 0 auto;
   background-image: url("public\assets\iteration-1\home-banner.png");
@@ -115,19 +119,41 @@
 }
 
 .menu-item3 {
-  margin: 30px auto;
-  background-image: url("public\assets\iteration-2\cta\kart-2.png");
-  background-size: cover;
-  background-position: center;
+  border: 1px solid black;
+  background-image: url(https://s3-alpha-sig.figma.com/img/6166/ed58/d63154ac0f2a8d7ea2d719fc064bc3f6?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8hyRF2XMhml0BH-C59MkUq8cVOa8lDIbbd7tsbmzcPfKYKbUx3g7qY40UDLbGq4-VycJ3qnivqqs8tVs-KEZNOlxXAj8MDlIXSq76b4aZf8XSM6Zv4SOYHlZM4RLNgG0toss3s4SdRko6Wd7aHtXaZLTt2uV0xGa1l4rEc06xuGk9vWRdnQd7QUAkPrze8CnnQnMrlALDdWjLXYyqavI3hzG39ZVkhAsXV08NcOwlV1UZDCId6nvBkvcWK2gRMWNGORIcvwJM4kchThr52f6P-o-zU5jIDppae9XP98TBypRzrOI4G2s1tFlXJVhEW0bn3TXmjHFtLPyrH44rGhog__);
   background-repeat: no-repeat;
-  height: 400px;
-  width: 600px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
+  background-size: 70%;
+  background-position: 70%;
+  width: 422px;
+  height:270px;
+  justify-content: space-between;
+  background-color: #292929;
+  padding: 14px 49px 44px 49px;
+  margin: 4% auto;
+  border-radius: 12px;
+  position: relative;
+}
+.hack{
+  width: 220px;
+  font-family: "Barlow";
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 3rem;
   text-align: left;
-  justify-content: center;
-  padding: 80px;
+  color: white;
+  margin-top: 10%;
+  position: absolute;
+}
+.hack{
+  width: 220px;
+  font-family: "Barlow";
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 3rem;
+  text-align: left;
+  color: white;
+  margin-top: 10%;
+  position: absolute;
 }
 
 .menu-header3 {
@@ -210,7 +236,6 @@
   width: 600px;
   display: flex;
   flex-direction: column;
-
   padding: 80px;
 }
 
@@ -247,7 +272,6 @@
 .btn4 {
   margin: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 50px;
@@ -264,13 +288,61 @@
 
 
 .container2 .btn4 img {
-  width: 35px;  
-  height: 35px; 
-  margin: 1rem; 
+  width: 35fpx;  
+  height: 35px;  
 }
 
+.container-pizza {
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
 
+.container-pizza img {
+  background: white;
+  border: solid white;
+  height: 550px;
+  padding: 80px;
+  border-radius: 20px;
+}
+.container-pizza h3 {
+  padding-left: 60px;
+  text-align: left;
+  width: 655px;
+}
 
+.container-pizza p {
+  padding-left: 60px;
+  text-align: left;
+  width: 655px;
+}
+
+.container-text {
+  background: white;
+  border-radius: 20px;
+  margin: -20px;
+}
+
+.container-text .bold {
+  font-weight: 500;
+}
+
+.container-last {
+  margin: 2550px auto;
+  background-color: #292929;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  height: 1300px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  color: #FAF7F2;
+}
 
 
 
