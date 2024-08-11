@@ -124,46 +124,25 @@ body {
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: 70%;
-  width: 422px;
-  height:270px;
+  width: 650px;
+  height:380px;
   justify-content: space-between;
   background-color: #292929;
   padding: 14px 49px 44px 49px;
   margin: 4% auto;
-  border-radius: 12px;
+  border-radius: 20px;
   position: relative;
 }
-.hack{
-  width: 220px;
-  font-family: "Barlow";
-  font-size: 2.3rem;
-  font-weight: 600;
-  line-height: 3rem;
-  text-align: left;
-  color: white;
-  margin-top: 10%;
-  position: absolute;
-}
-.hack{
-  width: 220px;
-  font-family: "Barlow";
-  font-size: 2.3rem;
-  font-weight: 600;
-  line-height: 3rem;
-  text-align: left;
-  color: white;
-  margin-top: 10%;
-  position: absolute;
-}
+
 
 .menu-header3 {
-  margin: 0;
+  margin-top: 80px;
   margin-bottom: 30px;
   display: flex;
   justify-content: left;
   text-align: left;
   color: #FAF7F2;
-  font-size: 5em;
+  font-size: 3.2em;
   font-family: Quatrocento;
   line-height: 1.1;
 
@@ -329,6 +308,7 @@ body {
   background: white;
   border-radius: 20px;
   margin: -20px;
+  font-family: Roboto;
 }
 
 .container-text .bold {
@@ -340,7 +320,7 @@ body {
   background-color: #292929;
   background-size: cover;
   background-position: center;
-  height: 1300px;
+  height: 1200px;
   width: 550px;
   display: flex;
   flex-direction: column;
@@ -360,6 +340,9 @@ body {
   margin-top: 80px;
   margin-bottom: 40px;
 }
+.container-last .container-hotmenu p {
+  font-size: 1.2rem;
+}
 
 .instagram-images {
   display: flex;
@@ -371,8 +354,13 @@ body {
 .container-last .container-instagram h1 {
   font-family: Barlow;
   font-size: 1.2rem;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 40px;
+}
+
+.container-footer {
+  margin-top: 100px;
+  border-top: solid thin #5F5F5F;
 }
 
 
