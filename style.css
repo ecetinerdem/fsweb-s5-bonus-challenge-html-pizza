@@ -317,7 +317,7 @@ body {
 
 .container-last {
   margin: 2650px auto;
-  background-color: #292929;
+  background-color: black;
   background-size: cover;
   background-position: center;
   height: 1200px;
@@ -361,6 +361,10 @@ body {
 .container-footer {
   margin-top: 100px;
   border-top: solid thin #5F5F5F;
+}
+
+.container-footer img {
+  width: 25px;
 }
 
 
