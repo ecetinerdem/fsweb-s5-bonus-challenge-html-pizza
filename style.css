@@ -1,11 +1,3 @@
-:root {
-  --yellow: #FDC913;
-  --light-gray: #5F5F5F;
-  --dark-gray: #292929;
-  --red: #CE2829;
-  --beige: #FAF7F2;
-}
-
 body{
 font-size: 16px;
 }
@@ -15,7 +7,7 @@ width: 585.13px;
 height: 1080.53px;
 margin:0;
 padding: 0;
-background-color: var(--red);
+background-color: #CE2829;
 display: flex;
 justify-content: center;
 background-image: url(https://s3-alpha-sig.figma.com/img/2b78/c96a/4a4acb450e3bbb3750c05c017efa1f61?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XPVNiteSnTrTt~99xEvdlNzBqt5Tkz9XP46evqjiXPa9K-VytNbNfD1mOcQ4jRxnCM016SVRJxiRkUGSczgg6knFSQeyvuZ7QZqA7XwZx7AnM3IY9VvrJ~rMmNdYGgBtVBTN9tF6p0oeQWko7BB0GjyCPn2OBjIhh2MGC~9tBpQnpiOZS4BllmULjpwQ4Ik49O5K1zCDFMLlopjrBOOgbvTRb-hqV~2GfHKEzWqTdGie8AZ5UAg9hkJH60SEebg~KeD8-M3X7oZCTfdKF0JtGyGbw9kcXylSVLnNpqUHghrPXbf0E1LxFcprbRyti9xK~PCSdyvqxozYwo626IyV4A__);
@@ -33,7 +25,7 @@ margin-right: 5rem;
 #content-header {
 width: 100%;
 height: 7%;
-color: var(--beige);
+color: #FAF7F2;
 font-family: "Roboto Condensed";
 font-weight: 900;
 text-align: center;
@@ -50,7 +42,7 @@ font-weight: 300;
 line-height: 92px;
 letter-spacing: 1.5px;
 text-align: center;
-color: var(--beige);
+color: #FAF7F2;
 margin-bottom: 8%;
 margin-top: 10%;
 }
@@ -64,7 +56,7 @@ margin-top: 10%;
 #btn{
 width: 193.47px;
 height: 52px;
-background-color: var(--yellow);
+background-color: #FDC913;
 color: var(#292929);
 font-family: Barlow;
 font-weight: 600;
@@ -129,7 +121,7 @@ color: white;
 
 
 .content-first {
-  background-color: var(--red);
+  background-color: #CE2829;
   background-image: url(https://s3-alpha-sig.figma.com/img/c436/3ab0/a2144978475fda5e250917960da4ea56?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWQnIKoFTktHlSIIN1fBm1f-QjIfv7E5~Cz68TaWrjpXjWA9lWyhuVUSyJXr-H9zzbb5BPZAumnmBnxPEQMp-~pL0ihSR6-5XkN3~cYpEZNtrndsotnr9Ufwvl4DC0IV02nbUXVei0I6KYEncWtVBW~AJlWGFM1mzcYlhX6QD~NmwUKV-uxrsLSH3LFEiwYJlEt95cGWOfd~1AE2yQamb39aFcFzMhUUtekcg9uFYy13~BO4kBl9kklhtlBdaeotMmJhk65UCiLr~2TtJxwVty3BaDIRmW482Bn6PQLoBTirepYAYex7ibTN5TnY7JvFcSaaBE0DRwHHuPA1G589Pw__);
   background-size: cover;
   background-position: 1px;
@@ -171,7 +163,7 @@ color: white;
   font-weight: 600;
   line-height: 48px;
   text-align: center;
-  color:var(--red);
+  color:#CE2829;
   border: none;
   margin-top: 21%;
 }
@@ -185,7 +177,7 @@ color: white;
   height:270px;
   padding: 32px 0px 0px 0px;
   justify-content: space-between;
-  background-color: var(--dark-gray);
+  background-color: #292929;
   padding: 14px 49px 44px 49px;
   margin: 4% auto;
   border-radius: 12px;
@@ -254,7 +246,7 @@ color: white;
 }
 
 span{
-  color: var(--red);
+  color: #CE2829;
   font-weight: 700;
 }
 
@@ -411,7 +403,7 @@ footer {
 margin-top: 9%;
 width: 540px;
 height: 1291px;
-background-color: var(--dark-gray);
+background-color: #292929;
 color: white;
 }
 
